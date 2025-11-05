@@ -4,8 +4,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #990033; /* ASU Maroon */
+    color: #FFC627; /* ASU Gold */
     overflow-y: scroll; /* Ensures scrollbar is always present */
     scrollbar-gutter: stable; /* Stabilizes scrollbar space */
     display: flex;
@@ -15,12 +15,12 @@ body {
 }
 
 h1, h2, h3 {
-    color: #444;
+    color: #FFC627; /* ASU Gold */
 }
 
 /* Navigation Links */
 a {
-    color: #007BFF;
+    color: #FFC627; /* ASU Gold */
     text-decoration: none;
 }
 
@@ -45,8 +45,8 @@ ol {
 
 /* Buttons */
 button {
-    background-color: #007BFF;
-    color: white;
+    background-color: #FFC627; /* ASU Gold */
+    color: #990033; /* ASU Maroon */
     border: none;
     padding: 10px 15px;
     cursor: pointer;
@@ -54,7 +54,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #E5B700; /* Slightly darker gold */
 }
 
 /* Center Content */
@@ -71,8 +71,8 @@ header, footer {
     width: 100%;
     text-align: center;
     padding: 20px;
-    background-color: #007BFF;
-    color: white;
+    background-color: #990033; /* ASU Maroon */
+    color: #FFC627; /* ASU Gold */
 }
 
 main {
