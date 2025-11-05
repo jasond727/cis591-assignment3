@@ -4,7 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #990033; /* ASU Maroon */
+    background-color: white; /* Keep the background white */
     color: #FFC627; /* ASU Gold */
     overflow-y: scroll; /* Ensures scrollbar is always present */
     scrollbar-gutter: stable; /* Stabilizes scrollbar space */
@@ -32,7 +32,7 @@ a:hover {
 .container {
     width: 800px;
     margin: 0 auto;
-    background: white;
+    background: #F9F6F2; /* Light beige for a softer look */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;

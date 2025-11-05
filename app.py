@@ -6,9 +6,5 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route('/publish')
-def publish():
-    return render_template('publish.html')
-
 if __name__ == '__main__':
     app.run(debug=True)
